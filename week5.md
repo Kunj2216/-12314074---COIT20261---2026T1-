@@ -1,3 +1,12 @@
+Week 05 Tutorial Report – COIT20261
+
+In this week’s tutorial, I learned about VLANs and how they are used to separate networks logically even when devices are connected to the same physical switch.
+
+In the first task, I created a GNS3 project with four Linux hosts and an OpenvSwitch. Initially, I configured all hosts in the same subnet and verified that they could communicate with each other using ping. After that, I set up VLANs on the switch by assigning different VLAN IDs to specific ports. Two hosts were placed in one VLAN and the other two in a different VLAN. Once the VLANs were configured, I tested connectivity again and noticed that hosts in different VLANs could no longer communicate with each other. This helped me understand how VLANs isolate network traffic even within the same physical network. I also checked ARP tables to observe how devices were resolving addresses within their VLAN.
+
+In the second task, I extended the setup by adding a Linux router to enable communication between the VLANs. I configured the switch port connected to the router as a trunk port so it could carry traffic from multiple VLANs. On the router side, I created sub-interfaces for each VLAN and assigned IP addresses to them. This allowed the router to act as a gateway for both VLANs. After completing the configuration, I tested connectivity again and confirmed that all hosts could now communicate with each other across VLANs.
+
+Overall, this tutorial helped me clearly understand the difference between access ports and trunk ports, how VLANs work in practice, and how routing between VLANs is achieved using a router. It also gave me hands-on experience with OpenvSwitch and Linux networking commands.
 <img width="1884" height="772" alt="1" src="https://github.com/user-attachments/assets/e715b24e-2df4-4d13-9892-8224c9266ebc" />
 <img width="1019" height="513" alt="2" src="https://github.com/user-attachments/assets/9a97ce4e-733f-4221-8a90-f0a6b0a5dc86" />
 <img width="1087" height="470" alt="3" src="https://github.com/user-attachments/assets/51efa243-cca3-4055-87f4-6dada2874400" />
