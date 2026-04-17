@@ -27,9 +27,13 @@ To test connectivity, a ping was performed from a host in one subnet to a host i
 
 This task demonstrated how routers and default gateways allow communication between different networks. It also emphasized the importance of proper IP addressing, routing configuration, and enabling forwarding on routers.
 <img width="916" height="421" alt="net" src="https://github.com/user-attachments/assets/4465a83a-77be-4e78-85b1-1229ff9bb196" />
+
 <img width="1006" height="553" alt="host" src="https://github.com/user-attachments/assets/f1bc03d3-22f6-45aa-b741-1a315effd0ea" />
+
 <img width="1098" height="433" alt="host2" src="https://github.com/user-attachments/assets/5e695f4b-006f-4d69-9a45-ad5462e728a8" />
+
 <img width="837" height="285" alt="host 3" src="https://github.com/user-attachments/assets/5b29cbcd-5cab-4dbc-a652-6d6665fb6254" />
+
 <img width="635" height="192" alt="ping" src="https://github.com/user-attachments/assets/3e89faad-430b-46c2-81fb-ee81dfe77d64" />
 
 
